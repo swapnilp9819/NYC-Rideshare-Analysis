@@ -39,7 +39,7 @@ This project consists of several analytical tasks implemented using Spark:
 
 ## Project File Structure
 
-The project is structured into separate scripts and Jupyter notebooks for each analytical task. Below is a detailed breakdown of the files corresponding to each task:
+The project is structured into separate scripts, Jupyter notebooks, and directories for each analytical task, outputs, and CSV files. Below is a detailed breakdown of the files corresponding to each task:
 
 ### Task 1: Merging Datasets
 - **Merging_Datasets_01.py**: Script for merging the rideshare and taxi zone lookup datasets. **This script must be run first as it prepares the data necessary for all subsequent analyses.**
@@ -63,6 +63,22 @@ The project is structured into separate scripts and Jupyter notebooks for each a
 
 ### Task 7: Routes Analysis
 - **Routes_Analysis_07.py**: Script for analyzing the most popular routes based on total trip counts.
+
+### Output Screenshots
+Screenshots of outputs are organized by task in the `output_screenshot` directory.
+
+### Data Export Folders
+Organized folders containing CSV outputs from specific tasks:
+- **Aggregation_of_Data_csv_output_02**
+  - `total_earnings/`
+  - `total_profit/`
+  - `trip_count/`
+- **Finding_anomalies_csv_output_05**
+
+These folders contain all CSV files generated as outputs from the scripts, which are used for further analysis or visualization.
+
+### How to Use the Outputs
+CSV files stored in the data export folders can be used to replicate the visualizations or to perform further analysis. Screenshots in the output folders can be used to quickly verify and compare the results obtained.
 
 ## Methods and APIs Used
 
