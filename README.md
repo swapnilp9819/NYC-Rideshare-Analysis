@@ -120,4 +120,4 @@ The analysis provided in this repository illustrates the power of big data in un
 To replicate this analysis:
 1. Clone this repository.
 2. Ensure Apache Spark and required libraries are installed.
-3. Execute the Spark scripts provided in the `scripts` folder.
+3. Execute the provided Spark scripts.
